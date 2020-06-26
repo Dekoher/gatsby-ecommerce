@@ -6,10 +6,7 @@ import { MenuItem, StyledHeader } from "../styles/components";
 const Header = ({ siteTitle }) => (
   <StyledHeader>
     <Link to='/'>
-      <MenuItem margin>
-        <Link to='/'>E-commerce</Link>
-      </MenuItem>
-      {/* <img src='https://i.postimg.cc/6q3pg48v/Logo.png' alt='logoreptiliadaniel'></img> */}
+      <img src='https://i.postimg.cc/6q3pg48v/Logo.png' alt='logoreptiliadaniel'></img>
     </Link>
     <nav>
       <ul>

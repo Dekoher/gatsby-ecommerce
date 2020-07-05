@@ -10,6 +10,7 @@ module.exports = {
     author: `@dekoher`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-stripe`,
     {
@@ -42,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-source-stripe`,
       options: {
-        objects: ['Sku', 'Price'],
+        objects: ['Price'],
         secretKey: process.env.STRIPE_SK,
       },
     }

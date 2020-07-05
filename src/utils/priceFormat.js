@@ -1,7 +1,7 @@
 export default function priceFormat(price) {
   const priceFloat = (price / 100).toFixed(2)
-  return Intl.NumberFormat("en-US", {
+  return new Intl.NumberFormat("es-MX", {
     style: "currency",
-    currency: "USD",
+    currency: "MXN",
   }).format(priceFloat)
 }
